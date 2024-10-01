@@ -1,0 +1,20 @@
+{
+  "name": "anime-cli",
+  "version": "1.0.0",
+  "description": "CLI for watching anime on terminal",
+  "main": "./src/main.js",
+  "type": "module",
+  "scripts": {
+    "suggest": "node . suggest one piece",
+    "anime-info": "node . info one-piece-film-red-18236",
+    "genre": "node . search-by-genre shounen 2",
+    "search": "node . search HunterxHunter"
+  },
+  "author": "KonyD",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^11.1.0"
+  }
+}
