@@ -1,4 +1,4 @@
-![Description of GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXh3MzNoZXg5MDkyMXB1bzUxMDRrcDF5Zm41bGdtbnhrcnNuYmlhYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/etW2P2cvB0PYY/giphy.webp)
+![Kurapika GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXh3MzNoZXg5MDkyMXB1bzUxMDRrcDF5Zm41bGdtbnhrcnNuYmlhYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/etW2P2cvB0PYY/giphy.webp)
 
 # Ani-CLI
 This is a command-line interface (CLI) application for anime enthusiasts that allows users to explore anime suggestions, information, episodes, and streaming options. The application interacts with the AniWatch API to fetch the necessary data.
