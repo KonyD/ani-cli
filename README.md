@@ -9,7 +9,7 @@ Before using this application, ensure that you have the [AniWatch API](https://g
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/anime-cli.git
+git clone https://github.com/KonyD/ani-cli.git
 cd anime-cli
 ```
 2. Install the required dependencies:
