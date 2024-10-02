@@ -35,7 +35,7 @@ export default async function getEpisodes(episodeId, episodeServers, hasDub) {
 
     // Fetch video streaming link based on the selected episode, server, and language choice
     const videoData = await getEpisodeStreamingLink(episodeId, serverChoice, languageChoice);
-    console.log(videoData); // Log the video data for debugging
+    //console.log(videoData); // Log the video data for debugging
 
     // Construct HTML content for the video player
     let htmlContent = `
