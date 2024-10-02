@@ -135,12 +135,18 @@ program
                     // Get servers for the selected episode
                     const episodeServers = await getEpisodeServers(episodeId);
 
-                    // Open video based on availability of dubbed or subbed versions
-                    if (episodeServers["dub"]) {
-                        await openVideo(episodeId, episodeServers, true); // Open dubbed version
-                    } else if (episodeServers["sub"]) {
-                        await openVideo(episodeId, episodeServers, false); // Open subbed version
-                    }
+                    const { languageChoice } = await inquirer.prompt([
+                        {
+                            type: 'list',
+                            name: 'languageChoice',
+                            message: 'Do you prefer sub or dub?',
+                            choices: ['sub', 'dub']
+                        }
+                    ]);
+
+                    // Open video player
+                    await openVideo(episodeId, episodeServers, languageChoice); 
+                    
 
                     console.log(chalk.green(`You are watching: ${episodeId}`));
                 } else {
