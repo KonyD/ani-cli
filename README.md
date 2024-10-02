@@ -1,13 +1,12 @@
-# Ani-CLI
+![Description of GIF](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdXh3MzNoZXg5MDkyMXB1bzUxMDRrcDF5Zm41bGdtbnhrcnNuYmlhYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/etW2P2cvB0PYY/giphy.webp)
 
+# Ani-CLI
 This is a command-line interface (CLI) application for anime enthusiasts that allows users to explore anime suggestions, information, episodes, and streaming options. The application interacts with the AniWatch API to fetch the necessary data.
 
 ## Prerequisites
-
 Before using this application, ensure that you have the [AniWatch API](https://github.com/ghoshRitesh12/aniwatch-api) running locally. This API is required for the application to function correctly.
 
 ## Installation
-
 1. Clone the repository:
 ```bash
 git clone https://github.com/yourusername/anime-cli.git
@@ -19,7 +18,6 @@ npm install
 ```
 
 ## Commands
-
 1. Get anime suggestions:
 ```bash
 node index.js suggest <query>
