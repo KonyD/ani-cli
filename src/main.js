@@ -10,7 +10,7 @@ import getEpisodeServers from "./getEpisodeServers.js"; // Import function to ge
 import openVideo from "./openVideo.js";             // Import function to open video player
 
 // Set up the CLI program with a name and version
-program.name('anime-cli').version('0.0.1');
+program.name('anime-cli').version('0.0.2');
 
 // Command to get anime suggestions based on a query
 program
