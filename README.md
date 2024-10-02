@@ -49,3 +49,6 @@ This command performs a search for anime using the provided query. Similar to th
 
 ## Contributing
 Contributions are welcome! If you have suggestions or improvements, please feel free to submit a pull request.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
